@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".LecturesMenu">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="C++"
+        android:textColor="#0091EA"
+        android:textSize="58dp" />
+    <Button
+        android:id="@+id/dataTypeButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="25dp"
+        android:background="#0091EA"
+        android:padding="8dp"
+        android:text="Data Types and User Inputs"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/loopsButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:background="#F03EA5E4"
+        android:padding="8dp"
+        android:text="Conditions and Loops"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/referenceButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:background="#64B6E8"
+        android:padding="8dp"
+        android:text="Functions"
+        android:textColor="#fff" />
+
+
+
+    <Button
+        android:id="@+id/inoutbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:background="#9DD7FB"
+        android:padding="8dp"
+        android:text="File Input/Output"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/pointerbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="24dp"
+        android:background="#E9A1CEEA"
+        android:padding="8dp"
+        android:text="Pointers"
+
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/progressbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="24dp"
+        android:background="#673AB7"
+        android:padding="8dp"
+        android:text="Track Your Progress"
+        android:textColor="#fff" />
+
+</LinearLayout>
+</ScrollView>
+

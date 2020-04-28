@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".InOutQuiz">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Score"
+            android:typeface="sans"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center"
+        android:background="#F566B1E3"
+        android:padding="10dp"
+        android:typeface="sans"
+        android:textAllCaps="true"
+        android:text="What does a pointer store?"
+        android:textSize="17sp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#F6F0CB"
+        android:padding="8dp"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:text="The address of the variable it points to"
+        android:textColor="#A3000000" />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#F6F0CB"
+        android:textAllCaps="false"
+        android:padding="8dp"
+        android:text="The value of the variable it points to"
+        android:textColor="#A3000000"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#F6F0CB"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:padding="8dp"
+        android:text="The address of the program in which it is declared"
+        android:textColor="#A3000000" />
+
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#F6F0CB"
+        android:padding="8dp"
+        android:typeface="sans"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="#A3000000" />
+
+
+
+</LinearLayout>

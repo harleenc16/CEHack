@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bytesizec">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:name=".ScoresClass"
+        android:theme="@style/AppTheme">
+        <activity android:name=".InOutQuiz"/>
+        <activity android:name=".ValueQuiz"/>
+        <activity android:name=".DataQuiz"/>
+        <activity android:name=".FileInOut"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".LoopsQuiz"/>
+        <activity android:name=".LecturesMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.Main" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VideoWatchPointers"
+                android:screenOrientation="landscape"/>
+
+        <activity android:name=".PointersQuiz"/>
+        <activity android:name=".DataVideo"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".ValueVideo"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".loops"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Progress"/>
+
+
+
+    </application>
+
+</manifest>

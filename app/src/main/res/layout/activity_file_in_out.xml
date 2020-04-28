@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/playbutton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="272dp"
+        android:layout_marginLeft="256dp"
+        android:layout_marginBottom="30dp"
+
+        android:background="#0091EA"
+        android:onClick="videoplay"
+        android:text="Play Tutorial "
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#0091EA"
+        android:textColorLink="#0091EA" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:id="@+id/quizButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="30dp"
+        android:background="#F6F0CB"
+        android:text="Take the Quiz"
+        android:textColor="#000000"
+        android:textColorHighlight="#0091EA"
+        android:textColorLink="#0091EA" />
+
+</RelativeLayout>
